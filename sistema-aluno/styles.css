@@ -1,0 +1,78 @@
+body{
+    background-color: #ffd2ff;
+}
+header{
+    background-color: #742273;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header > nav{
+    width: 300px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav > a{
+    color: #f4b7f3;
+    text-decoration: none;
+}
+header nav > a:hover{
+    color: #ffb6c8;
+}
+header >img{
+    height: 60px;
+    width: 90px;
+}
+.main {
+    display: flex;
+    height: 530px;
+}
+
+.main section{
+    background-color: #974e96;
+    width: 80%;
+    height: 100%;
+    flex: 4;
+  
+}
+
+.main aside{
+background-color: #ba7ab9;
+width: 20% ;
+height: 100%;
+flex: 1;
+}
+
+footer{
+    background-color: #dca6dc;
+    width: 1350px;
+    height: 50px;
+}
+
+input[type=text], select, textarea {
+    width: 10%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=email], select, textarea {
+    width: 10%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=password], select, textarea {
+    width: 10%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
