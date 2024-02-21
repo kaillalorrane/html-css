@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css".css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -15,6 +15,7 @@
             <a href="aluno.html">Aluno</a>
             <a href="./professor.html">Professor</a>
             <a href="lista-aluno.html">Lista aluno</a>
+            <a href="lista-professor.html">Lista professor</a>
             <a href="index.html">Home</a>
         </nav>
 
@@ -26,22 +27,38 @@
           
             <div class="box"> 
                 <div class="zero"> <h1>Dados Pessoais</h1>
-                <p><label for="name"> Nome</label>
-                    <input type="text" name="nome" id="name" placeholder="digite o nome" required> </p>
+                    <form action="professor.html">
+                <div class="nome"> <label for="name"> Nome</label>
+                    <input type="text" name="nome" id="name" placeholder="digite o nome" required></div>
 
-                <p> <label for="endereco"> Endereço</label>
-                    <input type="" name="endereco" id="end" placeholder="digite o endereço" required> </p>
+                 <div class="end"> <label for="endereco"> Endereço</label>
+                    <input type="text" name="endereco" id="end" placeholder="digite o endereço" required></div>
 
-                <p> <label for="endereco"> Endereço</label>
-                    <input type="" name="endereco" id="end" placeholder="digite o endereço" required>
+                <p> <label for="cidade"> Cidade</label>
+                    <select name="endereco" id="cidade"required>
+                        <option value="salvador">Salvador</option>
+                        <option value="guanambi">Guanambi</option>
+                        <option value="fortaleza">Fortaleza</option>
+                        <option value="saopaulo">São Paulo</option>
+                        <option value="riodejaneiro">Rio de Janeiro</option></select>
 
                 <label for="estado"> Estado</label>
-                <input type="text" name="estado" id="estado" placeholder="digite seu estado" required></p>
+                <select name="estado" id="estado" required>
+                <option value="bahia">Bahia</option>
+                <option value="ceara">Ceará</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="sp">São Paulo</option></select> </p>
                 </div> 
 
-            <div class="grid"> <h1> Dados profissionais</h1> 
-                <label for="trabalho"> Local de trabalho</label>
-                <input type="text" name="trabalho" id="trabalho" placeholder="digite seu local de trabalho" required>
+            <div class="grid"> <h1> Dados Profissionais</h1> 
+                <div class="nome"> <label for="trabalho"> Local de trabalho</label>
+                    <input type="text" name="trabalho" id="trabalho" placeholder="digite seu local de trabalho" required></div> 
+                
+                <div class="end"><label for="formacao"> Formação</label>
+                    <input type="text" name="formacao" id="formacao" placeholder="digite sua formação" required> </div>
+
+                 <label for="cargo"> Cargo</label>
+                    <input type="text" name="cargo" id="cargo" placeholder="digite seu cargo" required> 
                
                 <p> <input type="submit" value="salvar"></p>
             </div>
