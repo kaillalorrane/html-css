@@ -1,17 +1,17 @@
-#Requisitos:
+# Requisitos:
 
-*Organização;
+* Organização;
 
-*Linkar o sistema disciplina a esse sistema;
+* Linkar o sistema disciplina a esse sistema;
 
-*Adicionar grid;
+* Adicionar grid;
 
-*Adicionar mais imagens;
+* Adicionar mais imagens;
 
-*Ajustar imformações do formulário sistema;
+* Ajustar imformações do formulário sistema;
 
-*Ajustar paleta de cores;
+* Ajustar paleta de cores;
 
-*Organizar github;
+* Organizar github;
 
-*Adicionar alguma coisa na home; 
+* Adicionar alguma coisa na home; 
