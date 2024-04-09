@@ -1,13 +1,17 @@
--Organização
+#Requisitos:
 
--Linkar o sistema disciplina a esse sistema
+*Organização;
 
--Adicionar grid
+*Linkar o sistema disciplina a esse sistema;
 
--Adicionar mais imagens
+*Adicionar grid;
 
--Ajustar imformações do formulário sistema 
+*Adicionar mais imagens;
 
--Ajustar paleta de cores
+*Ajustar imformações do formulário sistema;
 
--Organizar github
+*Ajustar paleta de cores;
+
+*Organizar github;
+
+*Adicionar alguma coisa na home; 
